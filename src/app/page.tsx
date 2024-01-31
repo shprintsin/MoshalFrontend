@@ -1,5 +1,11 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function HomeMoshal() {
-  return (<p>Moving</p>  );
+  return (<>
+  <small>Front End Development Mode</small>
+  <Link href="/main/jobs">
+    Move To First Page (Jobs)
+    </Link>
+  </>  );
 }
