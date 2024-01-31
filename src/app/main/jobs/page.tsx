@@ -1,4 +1,3 @@
-import React from 'react';
 import { SearchBlock } from './search/SearchBlock';
 import { JobCard } from './card/JobCard';
 import { NewJobDialog } from './NewJobDialog';
