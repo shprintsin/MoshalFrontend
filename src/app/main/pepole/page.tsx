@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export default function PepolePage() {
-  return (
-    <div>PepolePage</div>
-  )
+  return <div>PepolePage</div>;
 }

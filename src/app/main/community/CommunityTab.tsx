@@ -5,9 +5,11 @@ import { JobCard } from '../jobs/card/JobCard';
 import { NewJobDialog } from '../jobs/NewJobDialog';
 
 export function CommunityTab() {
-  return <div>
-  <SearchBlock />
-  <UserCard/>
-  <NewJobDialog />
-</div>;
+  return (
+    <div>
+      <SearchBlock />
+      <UserCard />
+      <NewJobDialog />
+    </div>
+  );
 }

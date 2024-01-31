@@ -1,7 +1,7 @@
-import { CardHeader, CardTitle } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import React from "react";
-import { JobCardDropdown } from "./JobCardDropdown";
+import { CardHeader, CardTitle } from '@/components/ui/card';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import React from 'react';
+import { JobCardDropdown } from './JobCardDropdown';
 
 export function JobCardHeader(
   user: { name: string; avatar: string; alt: string; fallback: string },

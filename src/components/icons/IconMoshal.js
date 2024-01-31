@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 const SvgIconMoshal = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ const SvgIconMoshal = (props) => (
       y={0}
       maskUnits="userSpaceOnUse"
       style={{
-        maskType: "luminance",
+        maskType: 'luminance',
       }}
     >
       <path fill="#fff" d="M30 0H0v33.348h30z" />
