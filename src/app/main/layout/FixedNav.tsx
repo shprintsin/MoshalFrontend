@@ -25,15 +25,12 @@ export default function FixedNav() {
     <>
       <div className="fixed top-0 left-10">
         <div>
-          {y}
-          {isVisible && <div>Header Is Visible</div>}
-
-          <p></p>
+          {isVisible && <div>Header Is Visible</div>}      
+          {delta && 'Scrolling up'}
           <p>{lastScrollY.current}</p>
           <p> {y - lastScrollY.current}</p>
-          {delta && 'Scrolling up'}
         </div>
-        s
+        
       </div>
       <div className="flex flex-col">
         <HeaderLayout />
