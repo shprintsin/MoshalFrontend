@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
 // import { Inter } from "next/font/google";
 import IconGlobe from '@/components/icons/IconGlobe';
-import { MainNav } from './layout/MainNav';
-import FixedNav from './layout/FixedNav';
-import { HeaderLayout } from '../header/HeaderLayout';
+import { HeaderLayout } from '../layout/header/HeaderLayout';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import FixedNav from '../layout/header/FixedNav';
 
 export default function RootLayout({ children }) {
   return (
